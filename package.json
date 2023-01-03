@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fl-storage",
+  "name": "@solenopsys/hc-fl-storage",
   "version": "0.9.1",
   "scripts": {
     "test": "node index.js",
