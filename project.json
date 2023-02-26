@@ -1,14 +1,14 @@
 {
-  "name": "storage",
+  "name": "fl-storage",
   "projectType": "library",
-  "sourceRoot": "packages/libs/storage/src",
+  "sourceRoot": "packages/libraries/fl-storage/src",
   "prefix": "fui",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/libs/storage"],
+      "outputs": ["coverage/packages/libraries/fl-storage"],
       "options": {
-        "jestConfig": "packages/libs/storage/jest.config.js",
+        "jestConfig": "packages/libraries/fl-storage/jest.config.js",
         "passWithNoTests": true
       }
     },
@@ -16,8 +16,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "packages/libs/storage/src/**/*.ts",
-          "packages/libs/storage/src/**/*.html"
+          "packages/libraries/fl-storage/src/**/*.ts",
+          "packages/libraries/fl-storage/src/**/*.html"
         ]
       }
     }
