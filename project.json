@@ -1,12 +1,15 @@
 {
   "name": "fl-storage",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "packages/libraries/fl-storage/src",
   "prefix": "fui",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/libraries/fl-storage"],
+      "outputs": [
+        "coverage/packages/libraries/fl-storage"
+      ],
       "options": {
         "jestConfig": "packages/libraries/fl-storage/jest.config.js",
         "passWithNoTests": true
